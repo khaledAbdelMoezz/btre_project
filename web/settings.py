@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'webdb',
         'USER':'postgres',
-        'PASSWORD':'safi0303',
+        'PASSWORD':'',
         'HOST':'localhost',
     }
 }
@@ -152,8 +152,8 @@ MESSAGE_TAGS = {
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER ='khaled.a.moezz@gmail.com'
-EMAIL_HOST_PASSWORD ='Safi0303%'     #  should get a password
+EMAIL_HOST_USER ='example@gmail.com'
+EMAIL_HOST_PASSWORD ='********'     #  should get a password
 EMAIL_USE_TLS = True
 
 
