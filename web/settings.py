@@ -159,7 +159,7 @@ MESSAGE_TAGS = {
 
 
 try:
-    from .local_settings import *
+    from .localsettings import *
 except ImportError:
     pass
 
