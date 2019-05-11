@@ -1,0 +1,55 @@
+#header{
+
+  height: 50px;
+  background: #10284e;
+  color:white;
+  font-size: 16px;
+
+}
+#header h1{
+  color:white;
+}
+
+
+
+div.breadcrumbs{
+  background-color:#cdcbdb;
+  color:#10284e;
+
+}
+
+div.breadcrumbs a:visited{
+  color:#10284e;
+
+}
+div.breadcrumbs a:active{
+  color:yellowgreen;
+
+}
+div.breadcrumbs a:hover{
+  color:orange;
+
+}
+.module h2, .module caption, .inline-group h2{
+  background-color: #cdcbdb;
+
+}
+a.section:link, a.section:visited {
+    color: #10284e;
+  }
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button{
+  background-color:#cdcbdb;
+  color:#10284e;
+}
+.button.default:active, input[type="submit"].default:active, .button.default:focus, input[type="submit"].default:focus, .button.default:hover, input[type="submit"].default:hover {
+    background: yellowgreen;
+
+}
+.button.default, input[type="submit"].default, .submit-row input.default {
+
+    background:#cdcbdb;
+}
+
+.button:active, input[type="submit"]:active, input[type="button"]:active, .button:focus, input[type="submit"]:focus, input[type="button"]:focus, .button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background: yellowgreen;
+}
