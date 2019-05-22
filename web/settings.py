@@ -20,12 +20,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'gfrr&3y!$(%jg38_s!o#q)kmb$-9u$u6atyc003!6u$hv%qvm_'
+SECRET_KEY = 'gfrr&3y!$(%jg38_s!o#q)kmb$-9u$u6atyc003!6u$hv%qvm_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+DEBUG = True
 
-#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -79,15 +79,15 @@ WSGI_APPLICATION = 'web.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'webdb',
-#         'USER':'postgres',
-#         'PASSWORD':'',
-#         'HOST':'localhost',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'webdb',
+        'USER':'postgres',
+        'PASSWORD':'',
+        'HOST':'localhost',
+    }
+}
 
 
 # Password validation
@@ -150,11 +150,11 @@ MESSAGE_TAGS = {
 
 # email Config
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER ='example@gmail.com'
-# EMAIL_HOST_PASSWORD ='********'     #  should get a password
-# EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER ='khaled.a.moezz@gmail.com'
+EMAIL_HOST_PASSWORD ='Safi0303%'     #  should get a password
+EMAIL_USE_TLS = True
 
 
 
